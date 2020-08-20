@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "object-curly-spacing": ["error", "always"],
+        "linebreak-style": "off",
+        "semi": ["error", "never"],
+        "arrow-parens": "off"
+    }
+}
