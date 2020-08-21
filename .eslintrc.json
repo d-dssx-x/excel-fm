@@ -16,6 +16,8 @@
         "object-curly-spacing": ["error", "always"],
         "linebreak-style": "off",
         "semi": ["error", "never"],
-        "arrow-parens": "off"
-    }
+        "arrow-parens": "off",
+        "require-jsdoc": "off"
+    },
+    "parser": "babel-eslint"
 }
